@@ -1,20 +1,16 @@
 import React from 'react'
 import "../styles/ButtonsBackNext.css"
+import Button from "../components/Button"
 import {Link} from "wouter"
-const ButtonsBackNext = ({url}) => {
+const ButtonsBackNext = ({urlBack, urlNext, message,styles, colors, ArrowTipe}) => {
   return (
     <div className='buttonsNext'>
-        <Link to="/">
+        <Link to={urlBack}>
           <button className='back'>
-          <i class="fa-solid fa-arrow-left"></i>
+          <i className="fa-solid fa-arrow-left"></i>
           </button>
         </Link>
-        <Link to={url}>
-          <button className='next'>
-            <p>Siguiente</p>
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
-        </Link>
+        <Button urlNext={urlNext} message={message} styles={styles} colors={colors} ArrowTipe={ArrowTipe}/>
       </div>
   )
 }

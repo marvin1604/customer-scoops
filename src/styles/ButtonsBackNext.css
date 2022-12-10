@@ -1,9 +1,11 @@
 .buttonsNext{
     position: absolute;
-    bottom: -20%;
+    bottom: -60px;
     left: 10%;
     display: flex;
     gap: 12px;
+    height: 35px;
+    
 }
 .buttonsNext .back{
     border-radius: 50%;
@@ -11,6 +13,7 @@
     height: 35px;
     border: 1px solid #1B0F26;
     color: #1B0F26;
+    background: rgba(255, 255, 255, 0);
 }
 .buttonsNext .next{
     background: #1B0F26;

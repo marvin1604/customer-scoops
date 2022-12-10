@@ -1,0 +1,42 @@
+.circulo{
+    position: absolute;
+    bottom: 14%;
+    right: 24%;
+}
+.container-circulo{
+    display: flex;
+    width: 300px;
+    margin-top: 20px;
+}
+.container-circulo p{
+    font-size: 1.1rem;
+}
+.container-circulo span{
+    font-weight: bold;
+}
+.circulo-left{
+    width: 150px;
+    text-align: right;
+    padding: 10px;
+}
+.circulo-rigth{
+    padding: 10px;
+    width: 150px;
+    text-align: left;
+    border-left: 1px solid black;
+}
+.container-circulo .porcentaje{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+
+
+@media(max-width:1400px){
+    .circulo{
+        position: absolute;
+        bottom: 10%;
+        right: 18%;
+    }
+
+}

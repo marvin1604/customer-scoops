@@ -13,11 +13,18 @@ const LeftStep1 = () => {
         <div className='container-buttons'>
             {
                 datos.map(item=> (
-                    <button>{item.title}</button>
+                    <button key={item.id}>{item.title}</button>
                 ))
             }
         </div>
-        <ButtonsBackNext url={"/2"}/>
+        <ButtonsBackNext 
+          urlBack={"/"} 
+          urlNext={"/2"}
+          message={"Siguiente"} 
+          styles={"#1B0F26"} 
+          colors={"white"} 
+          ArrowTipe={"fa-solid fa-arrow-right"}
+        />
       </div>
   )
 }

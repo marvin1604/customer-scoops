@@ -1,0 +1,15 @@
+.next{
+    background: #1B0F26;
+    color: white;
+    width: 170px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.container-titulo4 .next p{
+    font-size: 0.8rem;
+}

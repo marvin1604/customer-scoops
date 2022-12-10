@@ -1,0 +1,29 @@
+/*Imagenes Flotantes*/
+.step2 .flotante{
+    position: absolute;
+}
+.step2 .flotante1{
+    width: 35px;    
+    left: 3%;
+    top: 45%;
+}
+.step2 .flotante2{
+    width: 20px;
+    left: 3.5%;
+    top: 60%;
+}
+.step2 .flotante3{
+    width: 40px;
+    left: 6%;
+    top: 14%;
+}
+.step2 .flotante4{
+    width: 50px;
+    left: 30%;
+    top: 24%;
+}
+.step2 .flotante5{
+    width: 50px;
+    left: 38%;
+    top: 80%;
+}

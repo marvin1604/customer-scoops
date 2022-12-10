@@ -5,73 +5,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.container-cuadros{
-    width: 468px;
-    display: flex;
-    gap: 24px;
-}
-.container-cuadro{
-    width: 170px;
-    height: 150px;
-    background: rgba(255, 255, 255, 0.383);
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.medidor{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    margin-top: 16px;
-}
-.medidor p{ 
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-.container-rigth{
     position: relative;
 }
-.circulo{
-    position: absolute;
-    bottom: 10%;
-    right: 18%;
+.container-titulo2{
+    width: 370px;
+    text-align: start;
+    margin-bottom: 20px;
 }
-.container-circulo{
-    display: flex;
-    width: 300px;
-    margin-top: 20px;
-}
-.container-circulo p{
+.container-titulo2 p{
     font-size: 1.1rem;
 }
-.container-circulo span{
-    font-weight: bold;
-}
-.circulo-left{
-    width: 150px;
-    text-align: right;
-    padding: 10px;
-}
-.circulo-rigth{
-    padding: 10px;
-    width: 150px;
-    text-align: left;
-    border-left: 1px solid black;
-}
-.container-circulo .porcentaje{
-    font-size: 3.2rem;
+.titulo-industria{
+    color: white;
     font-weight: bold;
 }
 
-@media(min-width:1400px){
-    .circulo{
-        position: absolute;
-        bottom: 14%;
-        right: 22%;
-    }
+
+/*Contenedor de la imagen derecha*/
+.container-rigth{
+    position: relative;
 }
