@@ -1,0 +1,33 @@
+.container-left{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.container-titulo{
+    color: #180A23;
+    width: 468px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.titulo-strong{
+    font-weight: 700;
+}
+.container-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 468px;
+    gap: 6px;
+}
+.container-buttons button{
+    width:150px;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 13px;
+    border: 1px solid #1B0F26;
+    color: #1B0F26;
+    font-weight: bold;
+    white-space: initial;
+    overflow: hidden;
+}

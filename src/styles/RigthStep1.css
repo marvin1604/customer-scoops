@@ -1,0 +1,14 @@
+.container-rigth{
+    width: 55%;
+    position: relative;
+}
+.container-rigth img{
+    width: 90%;
+    object-fit: cover;
+}
+.logo{
+    position: absolute;
+    width: 22%;
+    bottom:5%;
+    right: 15%;
+}
