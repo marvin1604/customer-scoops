@@ -61,10 +61,4 @@ const datos = [
     }
 
 ]
-
-    // "Logistics",
-    // "Massive Consume",
-    // "Wholesale",
-    // "Retail"
-
-    export default datos
+export default datos

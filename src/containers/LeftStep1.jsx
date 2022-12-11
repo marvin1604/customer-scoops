@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import "../styles/LeftStep1.css"
 import ButtonsBackNext from "../components/ButtonsBackNext"
 import datos from '../API/datos'
+import { AppContext } from '../hooks/provider'
+import { Link } from 'wouter'
 
 const LeftStep1 = () => {
+  const [state, setState] = useContext(AppContext)
   return (
     <div className='container-left'>
         <div className='container-titulo'>
@@ -13,7 +16,9 @@ const LeftStep1 = () => {
         <div className='container-buttons'>
             {
                 datos.map(item=> (
-                    <button key={item.id}>{item.title}</button>
+                    <Link to="/2" onClick={()=> setState(item)}>
+                      <button key={item.id}>{item.title}</button>
+                    </Link>
                 ))
             }
         </div>

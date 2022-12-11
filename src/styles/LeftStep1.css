@@ -20,6 +20,7 @@
     width: 468px;
     gap: 4px;
 }
+
 .container-buttons button{
     width:150px;
     height: 45px;
@@ -30,4 +31,9 @@
     font-weight: bold;
     white-space: initial;
     overflow: hidden;
+}
+
+.container-buttons button:hover{
+    background: #1B0F26;
+    color: white;
 }

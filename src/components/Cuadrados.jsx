@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "../styles/Cuadrados.css"
 import rate from "../assets/step2/speedometer.png"
+import { AppContext } from '../hooks/provider'
 
 const Cuadrados = () => {
+    const [state,setState] = useContext(AppContext)
   return (
     <div className='container-cuadros'>
         <div className='container-cuadro'>
@@ -10,7 +12,7 @@ const Cuadrados = () => {
             <p>2022</p>
             <div className='medidor'>
                 <img src={rate} alt="speedometer" />
-                <p>40%</p>
+                <p>{state.rate}</p>
             </div>
         </div>
         <div className='container-cuadro'>
@@ -18,7 +20,7 @@ const Cuadrados = () => {
             <p>Conversion Rate</p>
             <div className='medidor'>
                 <img src={rate} alt="speedometer" />
-                <p>0.8%</p>
+                <p>{state.lead}</p>
             </div>
         </div>
     </div>

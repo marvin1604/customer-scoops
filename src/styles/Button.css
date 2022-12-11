@@ -10,6 +10,10 @@
     align-items: center;
     gap: 12px;
 }
+/* .next:hover{
+    background: white;
+    color: #1B0F26;
+} */
 .container-titulo4 .next p{
     font-size: 0.8rem;
 }
