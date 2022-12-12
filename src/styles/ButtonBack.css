@@ -1,0 +1,15 @@
+.back{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #1B0F26;
+    color: #1B0F26;
+    background: rgba(255, 255, 255, 0);
+    transition: all 1s;
+}
+
+.back:hover{
+    color: rgb(227, 42, 1);
+    border: 1px solid rgb(227, 42, 1);
+    transform: rotate(20deg);
+}

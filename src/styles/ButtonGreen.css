@@ -1,5 +1,5 @@
-.next{
-    background: #1B0F26;
+.confirm{
+    background: #3FC467;
     color: white;
     width: 170px;
     height: 35px;
@@ -9,11 +9,12 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
+    transition: all 1s;
 }
-/* .next:hover{
-    background: white;
-    color: #1B0F26;
-} */
+.confirm:hover{
+    background: #0b782b;
+    color: white;
+}
 .container-titulo4 .next p{
     font-size: 0.8rem;
 }

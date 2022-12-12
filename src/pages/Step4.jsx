@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../components/Button'
+import ButtonPurplue from '../components/ButtonPurplue'
 import "../styles/Step4.css"
 
 import logo from "../assets/step3/Group 35.png";
@@ -12,16 +12,18 @@ const Step4 = () => {
             <div className='container-titulo4'>
                 <h2 className='titulo-strong'>Muchas Gracias</h2>
                 <h2>por querer ser parte de la familia Scoopers.</h2>
-                <p>Nos vemos Pronto</p>
-                <Button urlNext={"/"} message={"Finalizar"} />
+                <p className='textSub'>Nos vemos Pronto!</p>
+                <ButtonPurplue urlNext={"/"} message={"Finalizar"} />
             </div>
-            
+
             
         </div>
         <div className='container-rigth'>
-            <img src={imagen} alt="Frame.png"/>
-            <div className='logo'>
-                <img src={logo} alt="logo.png"/>
+            <div className='container-imagenes'>
+                <img className= "imgFondo" src={imagen} alt="Frame.png"/>
+                <div className='logo'>
+                    <img src={logo} alt="logo.png"/>
+                </div>
             </div>
         </div>
 

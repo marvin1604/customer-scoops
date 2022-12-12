@@ -7,10 +7,12 @@ import logo from "../assets/step3/Group 35.png";
 const RigthStep1 = () => {
   return (
     <div className='container-rigth'>
-          <img src={imagen} alt="Frame.png"/>
+      <div className='container-imagenes'>
+          <img className= "imgFondo" src={imagen} alt="Frame.png"/>
           <div className='logo'>
             <img src={logo} alt="logo.png"/>
           </div>
+      </div>
       </div>
   )
 }

@@ -1,7 +1,8 @@
 import React from 'react'
 import "../styles/Step3.css"
 import Calendly from '../components/Calendly';
-import ButtonsBackNext from '../components/ButtonsBackNext';
+import ButtonBack from '../components/ButtonBack';
+import ButtonGreen from '../components/ButtonGreen';
 
 import logo from "../assets/step3/Group 35.png";
 import imagen from "../assets/step3/Frame (1).png"
@@ -13,16 +14,21 @@ const Step3 = () => {
         <div className='mitad'>
             <div className='container-left3'>
                 <Calendly/>
-                <ButtonsBackNext urlBack={"/2"} urlNext={"/4"} message={"Confirmar"} styles={"#3FC467"} colors={"white"}/>
+                <div className='buttonsNext'>
+                    <ButtonBack urlBack={"/2"}/>
+                    <ButtonGreen urlNext={"/4"} message={"Confirmar"} />
+                </div>
             </div>
         </div>
         <div className='container-rigth'>
-            <img src={imagen} alt="Frame.png"/>
-            <div className='logo'>
-                <img src={logo} alt="logo.png"/>
-            </div>
-            <div className='franky'>
-                <img src={franky} alt="franky.png"/>
+            <div className='container-imagenes'>
+                <img className='imgFondo' src={imagen} alt="Frame.png"/>
+                <div className='logo'>
+                    <img src={logo} alt="logo.png"/>
+                </div>
+                <div className='franky'>
+                    <img src={franky} alt="franky.png"/>
+                </div>
             </div>
         </div>
     </div>

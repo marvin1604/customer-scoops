@@ -1,0 +1,24 @@
+.nextYellow{
+    background: yellow;
+    color: #1B0F26;
+    width: 170px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    transition: all 1s;
+}
+.nextYellow:hover{
+    background: rgb(59, 82, 235);
+}
+.nextYellow i{
+    color: aqua;
+    transition: all 1s;
+}
+
+.nextYellow:hover i{
+    transform: translateX(20px);
+}

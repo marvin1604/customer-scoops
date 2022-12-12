@@ -12,7 +12,9 @@ const Cuadrados = () => {
             <p>2022</p>
             <div className='medidor'>
                 <img src={rate} alt="speedometer" />
-                <p>{state.rate}</p>
+                {
+                  (state.rate)? <p>{state.rate}</p> : <p>88%</p> 
+                }
             </div>
         </div>
         <div className='container-cuadro'>
@@ -20,7 +22,9 @@ const Cuadrados = () => {
             <p>Conversion Rate</p>
             <div className='medidor'>
                 <img src={rate} alt="speedometer" />
-                <p>{state.lead}</p>
+                {
+                  (state.lead)? <p>{state.lead}</p> : <p>0.7%</p> 
+                }
             </div>
         </div>
     </div>

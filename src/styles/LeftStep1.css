@@ -14,6 +14,20 @@
 .titulo-strong{
     font-weight: 700;
 }
+.text-movil{
+    animation: animacion-text-movil 2s ease;
+    animation-fill-mode: forwards;
+}
+@keyframes animacion-text-movil{
+    from{
+        opacity: 0;
+        transform: translateX(80px)
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
 .container-buttons{
     display: flex;
     flex-wrap: wrap;
@@ -31,9 +45,30 @@
     font-weight: bold;
     white-space: initial;
     overflow: hidden;
+    transition: all 1s;
 }
-
 .container-buttons button:hover{
     background: #1B0F26;
     color: white;
+}
+
+.buttonsNext{
+    position: absolute;
+    bottom: -60px;
+    left: 10%;
+    display: flex;
+    gap: 12px;
+    height: 35px;
+    animation: animacion-button 2s ease;
+    animation-fill-mode: forwards;
+}
+@keyframes animacion-button{
+    from{
+        opacity: 0;
+        transform: translateY(120px)
+    }
+    to{
+        opacity: 1;
+        transform: translateY(-0px)
+    }
 }
