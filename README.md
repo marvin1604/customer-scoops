@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Customer Scoops Aplication
+Esta Aplicación es creada para interarctuar entre el frontend y backend, mediante de la libreria de react se realiza la creacion de la interface de la aplicación web, la cual consume una API que trabaja con la base de datos MongoDB, la parte backend de la aplicaci+on se encuentra en el siguiente repositorio:  [Customer Scoop API](https://github.com/marvin1604/customer-scoops-restApi)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## tecnologías, Librerias y Frameworks:
+
+- React
+- CSS
+- JavaScript
+- MongoDB
+
+### Imagen
+![](https://i.postimg.cc/1zxZXGXT/customer-scoops.png)
+
+## Ingresa a ver la aplicación [AQUI](https://customer-scoop.netlify.app/) ##  
 
 ## Available Scripts
 
@@ -14,10 +25,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -27,44 +34,17 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deploy:
 
-### `npm run eject`
+La aplicación ha sido desplegada en: [aqui https://app.netlify.com/](https://app.netlify.com/) 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Ingresa a ver la aplicación [AQUI](https://customer-scoop.netlify.app/) ##  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Mi carrera en Platzi
+- https://platzi.com/p/walter.rodriguez1992/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+------------
+#### Author
+Marvin1604
+[Link to My portfolio](https://marvin1604.github.io/portafolio/)<br>
