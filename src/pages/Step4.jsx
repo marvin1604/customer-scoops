@@ -15,8 +15,6 @@ const Step4 = () => {
                 <p className='textSub'>Nos vemos Pronto!</p>
                 <ButtonPurplue urlNext={"/"} message={"Finalizar"} />
             </div>
-
-            
         </div>
         <div className='container-rigth'>
             <div className='container-imagenes'>
@@ -26,7 +24,6 @@ const Step4 = () => {
                 </div>
             </div>
         </div>
-
     </div>
   )
 }
