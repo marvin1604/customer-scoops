@@ -6,9 +6,9 @@ import { AppContext } from '../hooks/provider'
 import { Link } from 'wouter'
 
 const LeftStep1 = () => {
-  const [state, setState] = useContext(AppContext);
+  const {setState} = useContext(AppContext);
   const [industrias, setIndustrias] = useState([]);
-
+  
   useEffect(()=>{
     async function getIndustrias(){
       const res = await fetch("https://customer-scoops-restapi-production.up.railway.app/api/industrias");

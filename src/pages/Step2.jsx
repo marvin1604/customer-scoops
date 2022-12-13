@@ -10,7 +10,7 @@ import Cuadrados from '../components/Cuadrados';
 import { AppContext } from '../hooks/provider';
 
 const Step2 = () => {
-  const [state, setState] = useContext(AppContext)
+  const {state} = useContext(AppContext)
   return (
     <div className='step2'>
         <div className='container-left'>

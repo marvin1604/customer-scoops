@@ -4,7 +4,7 @@ import rate from "../assets/step2/speedometer.png"
 import { AppContext } from '../hooks/provider'
 
 const Cuadrados = () => {
-    const [state,setState] = useContext(AppContext)
+    const {state} = useContext(AppContext)
   return (
     <div className='container-cuadros'>
         <div className='container-cuadro'>
