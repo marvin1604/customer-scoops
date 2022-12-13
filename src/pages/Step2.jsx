@@ -21,7 +21,7 @@ const Step2 = () => {
                   <p>y el Lead Conversion Rate de tu industria:</p>
                 </div>
                 {
-                  (state.title)? <h2 className='titulo-industria'>{state.title}</h2> : <h2>ITServices</h2> 
+                  (state.title)? <h2 className='titulo-industria'>{state.title}</h2> : <h2>Tecnología</h2> 
                 }
             </div>
             <Cuadrados/>

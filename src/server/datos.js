@@ -59,6 +59,5 @@ const datos = [
         "rate": "60%",
         "lead": "0.8%",
     }
-
 ]
 export default datos
