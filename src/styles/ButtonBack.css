@@ -12,4 +12,5 @@
     color: rgb(227, 42, 1);
     border: 1px solid rgb(227, 42, 1);
     transform: rotate(20deg);
+    transform: scale(1.2);
 }

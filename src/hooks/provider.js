@@ -11,4 +11,4 @@ const MyProvider= (props)=>{
 }
 
 export default MyProvider;
-export const AppContext = createContext() 
+export const AppContext = createContext()

@@ -5,7 +5,6 @@
     animation: animacion-Circulo 2s ease;
     animation-fill-mode: forwards;
 }
-
 @keyframes animacion-Circulo{
     from{
         opacity: 0;
@@ -46,9 +45,6 @@
     font-size: 3rem;
     font-weight: bold;
 }
-
-
-
 @media(min-width:1600px){
     .circulo{
         position: absolute;
